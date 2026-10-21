@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mock ERP Portal</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 40px; background: #f4f4f9; }
+        .form-card { max-width: 450px; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        label { display: block; margin-top: 12px; font-weight: bold; }
+        input { width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; }
+        button { margin-top: 20px; padding: 10px 15px; background: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="form-card">
+        <h2>ERP Invoice Data Entry</h2>
+        <form>
+            <label>Invoice Number:</label>
+            <input type="text" id="invoice_number" name="invoice_no" placeholder="INV-XXXX">
+
+            <label>Invoice Date:</label>
+            <input type="text" id="invoice_date" name="invoice_date" placeholder="DD-MM-YYYY">
+
+            <label>Total Amount:</label>
+            <input type="text" id="total_amount" name="total_amount" placeholder="0.00">
+
+            <button type="submit" id="submit_btn">Save Invoice</button>
+        </form>
+    </div>
+</body>
+</html>
