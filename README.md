@@ -44,6 +44,24 @@ invoice-rpa-agent/
 ├── main.py                     # Pipeline orchestrator
 └── requirements.txt            # Project dependencies
 ```
+## 🚀 System Architecture & Philosophy
+
+<p align="center">
+  <img src="assets/card1.png" alt="Card 1" width="600" />
+</p>
+<p align="center">
+  <img src="assets/card2.png" alt="Card 2" width="600" />
+</p>
+<p align="center">
+  <img src="assets/card3.png" alt="Card 3" width="600" />
+</p>
+<p align="center">
+  <img src="assets/card4.png" alt="Card 4" width="600" />
+</p>
+<p align="center">
+  <img src="assets/card5.png" alt="Card 5" width="600" />
+</p>
+
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository:**
